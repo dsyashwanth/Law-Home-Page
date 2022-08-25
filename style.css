@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+body {
+    background-color: #3E3B2D;
+    color: #9D9C99;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4%;
+    padding-bottom: 40px;
+}
+.list {
+    display:flex ;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.list li{
+    padding-left: 120px;
+    font-weight: bolder;
+    font-size: large;
+}
+.home {
+    color: #ffffff;
+}
+.button-small {
+    padding: 10px 25px;
+    background-color: transparent;
+    color: #837631;
+    font-size: 16px;
+    border: 2px solid #837631;
+}
+.law {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: baseline;
+    padding: 4%;
+}
+.law-heading {
+    color: #ffffff;
+    font-size: 85px;
+}
+.law-discription {
+    font-size: 20px;
+}
+.img img {
+    height: 600px;
+    width: 100%;
+}
